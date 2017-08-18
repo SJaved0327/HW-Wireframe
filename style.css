@@ -1,0 +1,102 @@
+body{
+	background: #777;
+	width: 960px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+header, nav, footer {
+	background: #ebebeb;
+	color: #777;
+	width: 960px;
+	height: 50px;
+	padding: 10px 0px 10px 0px;
+	margin: 10px 0px 10px 0px;
+	text-align: center;
+	line-height: 50px; 
+}
+
+.gen-text{
+	position: relative;
+	top: -20px;
+}
+
+h1{
+	position: relative;
+	top: -25px;
+}
+
+
+
+section{
+	background: #ebebeb;
+	color: #777;
+	width: 495px;
+	height: 300px;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 20px 20px 0px;
+	float: left;
+	z-index: 1;
+	overflow: auto;
+}
+
+.topics{
+	background: #ebebeb;
+	color: #777;
+	width: 455px;
+	position: relative;
+	left: 10px;
+	padding: 5px;
+	text-align: left;
+	margin-left: 5px;
+}
+
+aside{
+	background: #ebebeb;
+	color: #777;
+	width: 410px;
+	height: 300px;
+	text-align: center;
+	padding: 10px 10px 10px 0px;
+	margin: 10px 0px 10px 0px;
+	float: right;
+}
+
+h2{
+	background: #ebebeb;
+	color: #777;
+	height: 50px;
+}
+
+h3{
+	background: #ebebeb;
+	color: #777;
+	width: 465px;
+	position: relative;
+	margin-left: 15px;
+	margin-right: 15px;
+
+}
+
+article{
+	background: #777;
+	padding-bottom: 10px;
+}
+
+.clear{
+	clear: both;
+}
+
+a{
+	text-decoration: none;
+	color: #777;
+}
+
+a:hover{
+	color: #4B0082;
+}
+
+#portfolio{
+	margin: 0px 20px 0px 20px;
+}
